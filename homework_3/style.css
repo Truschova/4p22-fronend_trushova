@@ -45,3 +45,6 @@ p {
 footer{
     background-color: green;
 }
+table{
+    border: solid black 1px;
+}
