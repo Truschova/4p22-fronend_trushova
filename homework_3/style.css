@@ -21,30 +21,64 @@ p {
     font-family: "Times New Roman", serif, Verdana;
     font-size: 25px;
 }
-.subtitle{
+
+.subtitle {
     font-family: "Times New Roman", serif, Verdana;
     font-size: 25px;
     font-weight: bold;
 }
-.menu{
+
+.menu {
     font-family: "Times New Roman", serif, Verdana;
     font-size: 25px;
     text-align: center;
 }
-.icon{
+
+.icon {
     width: 20px;
     height: 20px;
 }
-.video{
-    
+
+.video {
+    padding: 20px 300px 20px 600px;
 }
-.portret{
+
+.portret {
     width: 250px;
     height: 300px;
 }
-footer{
+
+footer {
     background-color: green;
 }
-table{
-    border: solid black 1px;
+
+.custom-table {
+  width: 600px;
+  border-collapse: collapse;
+  padding: 100px 300px 20px 200px;
+}
+
+.custom-table td {
+  padding: 16px;
+  border: 1px solid black;
+}
+
+.text-right {
+  text-align: right;
+}
+.purple-bg {
+  background-color: purple;
+}
+.yellow-bg {
+  background-color: yellow;
+}
+.green-bg {
+  background-color: green;
+}
+.blue-bg {
+  background-color: blue;
+}
+.periods{
+    text-align: center;
+    font-weight: bold;
 }
