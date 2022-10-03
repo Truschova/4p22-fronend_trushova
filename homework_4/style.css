@@ -1,7 +1,7 @@
 .contener {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 15px;
+    column-gap: 25px;
     justify-content: center;
 }
 
@@ -62,7 +62,7 @@ img {
 .buy {
     height: 53px;
     width: 220px;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-top: 75px;
     position: absolute;
     border: 1px solid #384685;
