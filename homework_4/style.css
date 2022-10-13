@@ -74,3 +74,11 @@ img {
     border: 1px solid #384685;
     border-radius: 5px;
 }
+.footer{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: brown;
+}
