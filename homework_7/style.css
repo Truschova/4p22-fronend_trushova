@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+
+    min-height: 100vh;
+    background-color: #1B2473;
+}
+
+.form-container {
+    width: 100%;
+    min-width: 768px;
+    padding-top: 8%;
+    padding-left: 25%;
+    padding-right: 25%;
+
+}
+
+.form-container__white {
+    width: 600px;
+    height: 412px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.form-heading {
+    width: 115px;
+    height: 50px;
+    margin-left: 242px;
+    margin-top: 24px;
+}
+
+.form-heading__item {
+    padding-top: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    /* identical to box height, or 100% */
+    color: #787878;
+}
+
+
+.enter-form {
+    width: 40px;
+    height: 16px;
+    margin-left: 45px;
+    margin-top: 19px;
+}
+
+.emal-block__heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #787878;
+}
+
+input .input-email__english {
+    display: inline-block;
+}
+
+input.input-email__russia {
+    display: none;
+}
+
+.input-email__english {
+    width: 509px;
+    height: 49px;
+    margin-top: 4px;
+    text-indent: 10px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #787878;
+    background: #FFFFFF;
+    border: 2px solid #787878;
+    border-radius: 10px;
+}
+
+.password-block {
+    width: 259px;
+    height: 36px;
+    margin-top: 22px;
+}
+
+.input-password {
+    width: 509px;
+    height: 49px;
+    text-indent: 10px;
+    background: #FFFFFF;
+    border: 2px solid #787878;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #CCCCCC;
+}
+
+.checkbox-block {
+    width: 312px;
+    height: 24px;
+    margin-top: 51px;
+}
+
+.checkbox-label__heading {
+    width: 278px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #787878;
+}
+
+.enter-button {
+    width: 180px;
+    height: 52px;
+    margin-top: 65px;
+    margin-left: 125px;
+    background: #1A226B;
+    border-radius: 10px;
+}
+
+.enter-button__heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+
+    .form-container {
+        width: 100%;
+        min-width: 768px;
+        padding-top: 16%;
+        padding-left: 25%;
+        padding-right: 25%;
+
+    }
+
+    .form-container__white {
+        width: 100%;
+        height: 697px;
+        padding-top: 20px;
+        padding-right: 20px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+
+    .form-heading {
+        width: 138px;
+        height: 50px;
+        margin-left: 150px;
+        margin-top: 24px;
+    }
+
+    .form-heading__item {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 50px;
+        color: #787878;
+    }
+
+    .enter-form {
+        width: 60px;
+        height: 16px;
+        margin-left: 45px;
+        margin-top: 19px;
+    }
+
+    .emal-block__heading {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 16px;
+        color: #787878
+    }
+
+    input.input-email__english {
+        display: none;
+    }
+
+    input.input-email__russia {
+        display: inline-block;
+    }
+
+    .input-email__russia {
+        width: 318px;
+        height: 49px;
+        margin-top: 4px;
+        text-indent: 10px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+        color: #CCCCCC;
+        border: 2px solid #787878;
+        border-radius: 10px;
+    }
+
+    .input-password {
+        width: 318px;
+        height: 49px;
+        text-indent: 10px;
+        background: #FFFFFF;
+        border: 2px solid #787878;
+        border-radius: 10px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 36px;
+        color: #CCCCCC;
+    }
+
+    .checkbox-label__heading {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #787878;
+    }
+
+    .enter-button {
+        width: 220px;
+        height: 80px;
+        margin-top: 65px;
+        margin-left: 45px;
+        background: #1A226B;
+        border-radius: 10px;
+    }
+
+    .enter-button__heading {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+}
