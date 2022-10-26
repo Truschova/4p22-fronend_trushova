@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <title>Форма входа</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <img class="logo-header" src="img/1280_logo.svg" alt="innopolis-university">
+            <h1 class="name-header">PCS Frontend</h1>
+            <a class="link-header__registration" href="index.html">Регистрация</a>
+            <a class="link-header__enter" href="registration.html">Вход</a>
+        </div>
+    </header>
+    <main class="content">
+        <div class="form-container">
+            <div class="form-heading">
+                <h1 class="form-heading__item">Вход</h1>
+            </div>
+            <form class="form">
+                <div class="input-block">
+                    <label class="input-label" for="email">
+                        <h2 class="input-block__item">Email</h2>
+                        <input class="input__control" id="email" name="user-email" type="email" placeholder="johndoe@email.com">
+                    </label>
+                </div>
+                <div class="input-block">
+                    <label class="input-label" for="password">
+                        <h2 class="input-block__item">Пароль</h2>
+                    </label>
+                    <input class="input__control" id="password" name="password" type="password" placeholder="Введите пароль">
+                </div>
+                <div class="input-block">
+                    <label class="input-label" for="confirm-password">
+                        <h2 class="input-block__item">Подтверждение пароля</h2>
+                    </label>
+                    <input class="input__control" id="confirm-password" name="password" type="password" placeholder="Подтвердите пароль">
+                </div>
+                <div>
+                    <h2 class="input-block__item">Пол</h2>
+                    <input class="gender" type="radio" id="man" value="man" checked name="gender">
+                    <label class="gender__item" for="man">Мужчина</label>
+                    <br>
+                    <input class="gender" type="radio" id="woman" value="woman" name="gender">
+                    <label class="gender__item" for="woman">Женщина</label>
+                </div>
+                <div class="input-story">
+                    <label class="input-label" for="story"><h2>О себе</h2></label>
+                    <br>
+                    <textarea class="input-label__story" id="story" name="story"  placeholder="Расскажите о себе..."></textarea>
+                </div>
+                <div class="input-checkbox">
+                    <input class="checkbox-button" id="checkbox" type="checkbox">
+                    <label class="input-checkbox__label" for="checkbox"><span class="checkbox-label__item">Я согласен получать обновления на почту</span></label>
+                </div>
+            </form>
+            <div class="button"><button class="enter-button"><span class="enter-button__item">Войти</span></button></div>
+        </div>
+    </main>
+</body>
+
+</html>
