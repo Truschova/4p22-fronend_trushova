@@ -8,7 +8,7 @@ document.getElementById('password').addEventListener('input' , (event) =>{
 document.getElementById('password_repeat').addEventListener('input' , (event) =>{
     [event.target.style.borderColor,document.getElementById('password').style.borderColor] = ['#787878','#787878'];
 });
-document.getElementById('registration_button').addEventListener('click' , (event) => {
+document.getElementById('registration-form').addEventListener('submit' , (event) => {
     event.preventDefault();
     const mask = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     let email = document.getElementById('email');
